@@ -25,10 +25,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.treble.enabled=true \
-    sys.usb.controller=7000000.dwc3
-
 # Time Zone Data
 PRODUCT_COPY_FILES += \
  system/timezone/output_data/iana/tzdata:recovery/root/system_root/usr/share/zoneinfo/tzdata
