@@ -77,7 +77,6 @@ TARGET_HW_DISK_ENCRYPTION := false
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_CUSTOM_BATTERY_PATH := "/sys/devices/battery/power_supply/battery"
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone1/temp"
-TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/soc/7000000.ssusb/7000000.dwc3/gadget/lun%d/file
 
 TW_THEME := portrait_hdpi
 TW_NO_REBOOT_BOOTLOADER := true
